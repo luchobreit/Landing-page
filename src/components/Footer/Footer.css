@@ -1,0 +1,77 @@
+.footer-container{
+    color: whitesmoke;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    background-color: rgb(2, 53, 2);
+    display: flex;  
+    justify-content: space-between;
+}
+
+.viajes{
+    height: 60%;
+    width: 15%;
+    margin-top: auto;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: 2px  rgb(1, 39, 1);
+    
+}
+
+.viajes h2{
+    margin-bottom: 2%;
+    margin-left: -10%;
+}
+
+.planet{
+    margin-bottom: 1%;
+}
+
+.viajes li{
+     margin-top: 3%;
+     text-decoration: none;
+     list-style: none;
+}
+
+.redes{
+    height: 80%;
+    width: 15%;
+    margin-top: auto;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: 2px solid rgb(1, 39, 1);
+    box-shadow: 4px 2px 30px black;
+}
+
+.redes h2{
+    margin-bottom: 2%;
+    margin-left: -10%;
+}
+
+.redes li{
+     margin-top: 3%;
+     text-decoration: none;
+     list-style: none;
+}
+
+.logo-footer{
+    width: 10%;
+    height: 10%;
+    object-fit: cover;
+    margin: auto 5%;
+    box-shadow: 4px 2px 3px rgb(1, 14, 1);
+}
+
+.contacto{
+    height: 60%;
+    width: 15%;
+    margin-top: auto;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: 2px  rgb(1, 39, 1);
+}

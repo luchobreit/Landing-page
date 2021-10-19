@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,300&display=swap');
+.cards-container{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    margin-top: 100vh;
+    background-color: blanchedalmond;
+    padding-top: 3%;
+}
+
+.titulo{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.carditem-container{
+    display: grid;
+    grid-template-columns: repeat(3,20em);
+    grid-template-rows: repeat(3, 20em);
+    text-align: center;
+    margin: auto;
+    grid-column-gap: 1%;
+    grid-row-gap: 1%;
+    padding-top: 3%;
+}
+
+
+
+.grid-item-1{
+    grid-row: 1 / span 2;
+    background-repeat: no-repeat;
+    background-size: auto;
+    box-shadow: -24px 16px 42px -6px rgba(36,169,72,0.7);
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.grid-item-3{
+    background-color: blueviolet;
+    box-shadow: 14px 10px 23px 0px rgba(16,159,119,0.51);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.grid-item-4{
+    grid-column: 2/ span 2;
+    box-shadow: 11px 12px 24px 0px rgba(7, 97, 104, 0.75);
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.item3-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 100;
+    transition: width, .5s;
+}
+
+.item3-img:hover{
+    width: 150%;
+    object-fit: cover;
+    text-align: center;
+    z-index: 300;
+    text-align: center;
+}
+
+
+.item3-txt{
+    z-index: 300;
+    align-items: flex-start;
+    position: absolute;
+    color: #fff;
+    font-size: xx-large;
+    font-family: 'IM Fell English SC', serif;
+    padding-right: 3%;
+}
+
+.item1-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 10;
+    transition: width .5s;
+}
+
+.item1-img:hover{
+    height: 100%;
+    width: 150%;
+    object-fit: cover;
+    text-align: center;
+    z-index: 300;
+    text-align: center;
+}
+
+
+.item1-txt{
+    z-index: 300;
+    align-items: flex-start;
+    position: absolute;
+    color: #fff;
+    font-size: xx-large;
+    margin-top: 20%;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    text-decoration: none;
+    padding-left:3%;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.item4-img{
+   height: 100%;
+   width: 100%;
+   filter: brightness(1.2), contrast(1);
+   z-index: 100;
+   transition: all .5s; 
+   object-fit: cover;
+}
+
+.item4-img:hover{
+    height: 150%;
+    width: 150%;
+    object-fit: cover;
+    text-align: center;
+}
+
+.item4-txt{
+    z-index: 3000;
+    text-align: center;
+    position: absolute;
+    color: #fff;
+    font-size: xx-large;
+    padding-left: 38%;
+    font-family: 'Nunito', sans-serif;
+}
+

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+
+a{
+    text-decoration: none;
+}
+
+.nav{
+    z-index: 40000000000;
+}
+
+.font{
+    font-family: 'Bungee Inline', cursive;
+    padding-right: 5px;   
+}
+
+.font-color1{
+    color: rgb(100, 78, 53);
+    padding-left: 7px;
+}
+
+.font-color{
+    color: rgb(4, 104, 4);
+}
+
