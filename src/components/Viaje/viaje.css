@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+.viaje_container{
+    background-image: url("C:\Users\Luchi\Documents\Programacion\Proyectos\landig-proyect\src\imgs\plane2.jpg");
+    height: 200vh;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    text-align: center;
+    background-color: blue;
+}
+.travesia{
+    padding-top: 3%;   
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 500%;
+}
+.travesia2{
+    padding-top: 3%;   
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 500%;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+}
+.p1{
+    width: 30%;
+    margin-top: 6%;
+    margin-left: 5%;
+    backdrop-filter: blur(4px);
+    
+    
+}
+.p2{
+    width: 30%;
+    position: absolute;
+    margin-left: 65%;
+    backdrop-filter: blur(4px);
+    
+    
+}
+.p3{
+    display: inline-block;
+    padding-top: 1%;
+    backdrop-filter: blur(3px);
+    width: 70%;
+    margin: auto;
+    color: black;
+    margin-top: 2%;
+}
+.p4{
+    width: 70%;
+    font-size: xx-large;
+    margin:  auto;
+    font-weight: bolder;
+    background-color: rgba(0, 0, 0, 0.486);
+    color: white;
+}
+.socio-link{
+    text-decoration: none;
+    font-size: x-large;
+    color:grey;
+    background-color: rgba(0, 0, 0, 0.486);
+    margin-bottom: 100%;
+}

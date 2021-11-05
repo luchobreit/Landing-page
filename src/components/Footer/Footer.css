@@ -5,9 +5,21 @@
     left: 0;
     right: 0;
     height: auto;
-    background-color: rgb(2, 53, 2);
+    background-color:blanchedalmond;
     display: flex;  
-    justify-content: space-between;
+    width: 100%;
+    align-content: space-between;
+    justify-content: space-around;
+    border-top: 2px solid black;
+    width: 100%;
+}
+
+h2{
+    color: black;
+}
+.link{
+    text-decoration: none;
+    color: black;
 }
 
 .viajes{
@@ -21,9 +33,14 @@
     
 }
 
+
 .viajes h2{
     margin-bottom: 2%;
     margin-left: -10%;
+}
+
+.link-viajes{
+    text-decoration: none;
 }
 
 .planet{
@@ -43,8 +60,6 @@
     padding-left: 5%;
     padding-top: 5%;
     padding-bottom: 5%;
-    border: 2px solid rgb(1, 39, 1);
-    box-shadow: 4px 2px 30px black;
 }
 
 .redes h2{
@@ -66,12 +81,24 @@
     box-shadow: 4px 2px 3px rgb(1, 14, 1);
 }
 
-.contacto{
-    height: 60%;
+
+
+.usuarios{
+    height: 80%;
     width: 15%;
-    margin-top: auto;
+    margin-bottom: 3.8% ;
     padding-left: 5%;
     padding-top: 5%;
-    padding-bottom: 5%;
-    border: 2px  rgb(1, 39, 1);
+    
+}
+
+.usuarios h2{
+    margin-bottom: 2%;
+    margin-left: -10%;
+}
+
+.usuarios li{
+     margin-top: 3%;
+     text-decoration: none;
+     list-style: none;
 }

@@ -34,9 +34,9 @@ function NavBar() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link eventKey={2}><BiPaperPlane/>    Viaje </Nav.Link>
+              <Nav.Link eventKey={2}><Link className ="linka" to="viaje"><BiPaperPlane/>    Viaje </Link></Nav.Link>
 
-              <Nav.Link eventKey={2}><RiContactsBookLine/>     Contacto</Nav.Link>
+              <Nav.Link eventKey={2}><RiContactsBookLine/><Link className ="linka" to="contacto">     Contacto</Link></Nav.Link>
               <NavDropdown title="Destinos" id="collasible-nav-dropdown">
                 <NavDropdown.Item > Bariloche</NavDropdown.Item>
                 <NavDropdown.Item >El Bolson</NavDropdown.Item>
@@ -48,7 +48,7 @@ function NavBar() {
             </Nav>
             <Nav>
 
-              <Nav.Link eventKey={2}><AiOutlineLogin/>   Sing-Up</Nav.Link>
+              <Nav.Link eventKey={2}><Link className="signup" to="signup"><AiOutlineLogin/>   Sing-Up</Link></Nav.Link>
 
               <Nav.Link eventKey={2} >
                 <BsPatchQuestion/>    Quienes Somos?

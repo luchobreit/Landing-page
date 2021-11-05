@@ -1,0 +1,53 @@
+.sign-container{
+    height: 91.6vh;
+    background-image: url("C:\Users\Luchi\Documents\Programacion\Proyectos\landig-proyect\src\imgs\caminante.jpg");
+    background-size: cover;
+}
+.sign-form-container{
+    height: 91.6vh;
+    width: 30%;
+    position: absolute;
+    right: 0%;
+    background-color: rgba(255, 248, 248, 0.637);
+    opacity: 100%;
+    display: flex;
+    flex-flow: column;
+}
+.sign-input{
+    width: 95%;
+    margin: 0 2%;
+    margin-top: 10%;
+    height: 25%;
+    text-align: center;
+    border-radius: 5%;
+    outline: none;
+    border: none;
+}
+.sign-input-pass{
+    margin-bottom: 10%;
+}
+
+.sign-submit{
+    position: relative;
+    width: 40%;
+    right: -30%;
+    transition: all .5s;
+}
+.sign-submit:hover{
+    background-color: greenyellow;
+}
+.pregunta{
+    border-top: 5px double black;
+    text-align: center;
+    padding-top: 2%;
+    margin-top: 20%;
+}
+.usuario-cambio{
+    text-decoration: underline blue;
+    color: blue;
+    cursor: pointer;
+}
+.usuario-cambio:hover{
+    text-decoration: none;
+    color: blue;
+}

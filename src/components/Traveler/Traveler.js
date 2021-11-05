@@ -2,7 +2,7 @@ import "./traveler.css"
 import {VscDebugStart} from "react-icons/vsc"
 import AOS from 'aos';
 import 'aos/dist/aos.css'
-import { Button, Link } from "react-scroll";
+import { Link } from "react-scroll";
 
 
 function Traveler({id}) {
@@ -11,7 +11,11 @@ function Traveler({id}) {
         <div className="traveler-container">
             <video src="\videos\video-1.mp4" autoPlay muted loop />
             <div className="traveler2-container">
-            <h1>LA NATURALEZA TE ESPERA</h1>
+            <h1 data-aos="fade-left"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="500">
+                 LA NATURALEZA TE ESPERA</h1>
             <p>Estas preparado para enfrentar lo <label className="tachado">im</label>posible?</p>
             
         

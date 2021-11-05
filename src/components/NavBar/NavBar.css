@@ -2,23 +2,36 @@
 
 a{
     text-decoration: none;
+    
+}
+
+.linka{
+    text-decoration: none;
+    color: rgba(255,255,255,.55);
 }
 
 .nav{
     z-index: 40000000000;
+    width: 100%;
 }
 
 .font{
     font-family: 'Bungee Inline', cursive;
-    padding-right: 5px;   
+    padding-right: 5px;
+      
 }
 
 .font-color1{
     color: rgb(100, 78, 53);
     padding-left: 7px;
+    cursor: pointer;
 }
 
 .font-color{
     color: rgb(4, 104, 4);
+    cursor: pointer;
 }
-
+.signup{
+    text-decoration: none;
+    color: rgba(255,255,255,.55);
+}

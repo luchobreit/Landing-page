@@ -7,7 +7,6 @@ import Footer from "../Footer/Footer"
 function Home() {
     return (
         <div>
-            <NavBar/>
             <Traveler id="cards"/>
             <Cards/>
             <Footer/>
