@@ -48,7 +48,7 @@ function NavBar() {
             </Nav>
             <Nav>
 
-              <Nav.Link eventKey={2}><Link className="signup" to="signup"><AiOutlineLogin/>   Sing-Up</Link></Nav.Link>
+              <Nav.Link eventKey={2}><Link className="signup" to="signin"><AiOutlineLogin/>   Sing-Up</Link></Nav.Link>
 
               <Nav.Link eventKey={2} >
                 <BsPatchQuestion/>    Quienes Somos?

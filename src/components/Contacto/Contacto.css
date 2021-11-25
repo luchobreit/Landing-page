@@ -92,3 +92,10 @@
 .log:hover{
     box-shadow: 2px 2px 42px black;
 }
+
+.contacto-submit{
+    margin-top: 5%;
+    width: 15%;
+    align-self: center;
+    background-color: transparent;
+}

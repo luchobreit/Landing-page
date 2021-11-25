@@ -1,10 +1,18 @@
 import "./Contacto.css"
 import {useState} from "react"
+import { getFirestore } from "../Service/GetFirebase"
+import firebase from "firebase";
+import 'firebase/firestore'
 
 
 
 
 function Contacto() {
+    const [formulario, setFormulario] = useState({
+        email:"",
+        nombre:"",
+        texto:""
+    })
     const [hoverTw, setHoverTw] = useState(false)
     const [hoverIg, setHoverIg] = useState(false)
     const [hoverFb, setHoverFb] = useState(false)
@@ -21,18 +29,63 @@ function Contacto() {
     const hoverVistaWp =()=>{
         setHoverWp(!hoverWp)
     }
+
+    const formularioChange =e=>{
+        setFormulario({
+            ...formulario,
+            [e.target.name]: e.target.value
+        });
+        console.log(formulario);
+    }
+    const handlerFormulario =e=>{
+        e.preventDefault();
+        const newContacto={
+            email:formulario.email,
+            nombre:formulario.nombre,
+            consulta: formulario.texto,
+            date: firebase.firestore.Timestamp.fromDate(new Date()),
+        }
+
+        const db= getFirestore()
+        const contacto=db.collection(`conatacto`)
+        
+        contacto.add(newContacto)
+        .then(
+            r=>{
+                alert(`formulario enviado id ${r.id}`)
+            }
+        )
+        .catch(
+            r=>{
+                alert("hubo un error intente mas tarde")
+            }
+        )
+        .finally(r=>{
+            setFormulario({
+                email:"",
+                nombre:"",
+                texto:"",
+                resuelto:false
+            })
+        })
+    }
+
+    
+
+
+
     return (
         <div className="form-container">
-            <form className="form1">
+            <form className="form1" onSubmit={handlerFormulario}>
                 <h1>Formulario de contacto</h1>
 
-                <input className="input mail" name ="email"type="email" placeholder="email"/>
+                <input className="input mail" name ="email" type="email" placeholder="email" onChange={formularioChange}/>
 
-                <input className="input mail" name ="email2"type="email" placeholder="confirmar email"/>
+                <input className="input name" name ="nombre" type="text" placeholder="nombre" onChange={formularioChange}/>
 
-                <input className="input name" name ="name" type="text" placeholder="nombre"/>
+                <textarea className="input textarea" name="texto" maxLength="360" placeholder="consulta" onChange={formularioChange}/>
 
-                <textarea className="input textarea" maxLength="360" placeholder="consulta"/>
+                <input className="contacto-submit" type="submit" value="Enviar"/>
             </form>
             <h1 className="form-h1">Mediante redes sociales</h1>
             <div className="button-container">
@@ -78,8 +131,6 @@ function Contacto() {
                 }
                 <label className="lab-tw">WhatsApp</label>
                 </a>
-
-
             
             </div>
         </div>

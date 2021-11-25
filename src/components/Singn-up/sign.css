@@ -1,21 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap');
 .sign-container{
-    height: 91.6vh;
+    height: 100vh;
     background-image: url("C:\Users\Luchi\Documents\Programacion\Proyectos\landig-proyect\src\imgs\caminante.jpg");
     background-size: cover;
+    display: flex;
 }
 .sign-form-container{
-    height: 91.6vh;
+    height: 100%;
     width: 30%;
     position: absolute;
     right: 0%;
     background-color: rgba(255, 248, 248, 0.637);
     opacity: 100%;
-    display: flex;
-    flex-flow: column;
+   
 }
+.register-form{
+    align-self: center;
+    margin-top: auto;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    background-color: transparent;
+}
+
+.facebook{
+    background-color: darkblue;
+}
+
+.card{
+    margin: 10% auto;
+    width: 90%;
+    background-color: transparent;
+}
+
+.volver{
+    height: 50%;
+    margin-top: 2%;
+}
+
 .sign-input{
-    width: 95%;
-    margin: 0 2%;
+    width: 100%;
+    margin: auto;
     margin-top: 10%;
     height: 25%;
     text-align: center;
@@ -28,10 +54,13 @@
 }
 
 .sign-submit{
-    position: relative;
-    width: 40%;
-    right: -30%;
+    width: 33%;
     transition: all .5s;
+    margin-top:-10%;
+    margin-left: 34%;
+    align-self: center;
+    justify-self: center;
+    border: 2px solid black;
 }
 .sign-submit:hover{
     background-color: greenyellow;
@@ -51,3 +80,69 @@
     text-decoration: none;
     color: blue;
 }
+.registrar-submit{
+    position: relative;
+    width: 40%;
+    right: -30%;
+    transition: all .5s;
+}
+.registrar-submit:hover{
+    background-color: greenyellow;
+}
+.ver{
+    width:  10%;
+    margin-left: 50%;
+    margin-top: 10%;
+    margin: auto;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    width: 100%;
+}
+
+.display-none{
+    display: none;
+}
+
+.red{
+    color: red;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.logo2{
+    width: 10%;
+    margin-right: 10%;
+}
+
+.ingreso{
+    text-align: left;
+    outline: none;
+    border: none;
+    padding-top: 5%;
+}
+
+.tituloSign{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 2%;
+}
+
+.accede{
+    color: white;
+    align-self: center;
+    margin-left: 2%;
+    font-family: 'PT Sans', sans-serif;
+    display: inline-block;
+}
+
+.logged{
+    justify-content: center;
+    margin: auto;
+    text-decoration: underline;
+}
+
+.benefecios{
+    display: flex;
+}
+
