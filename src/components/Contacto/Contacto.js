@@ -90,12 +90,12 @@ function Contacto() {
             <h1 className="form-h1">Mediante redes sociales</h1>
             <div className="button-container">
             
-                <a className="log log-tw" href="#" onMouseOver={hoverVistaTw} onMouseOut={hoverVistaTw} target="_blank">
+                <a className="log log-tw" onMouseOver={hoverVistaTw} onMouseOut={hoverVistaTw} target="_blank">
                 {
                     hoverTw ?
-                    <img  className="logo" src="\imagenes\twitter2.png"/>
+                    <img alt="img"  className="logo" src="\imagenes\twitter2.png"/>
                     :
-                    <img  className="logo" src="\imagenes\twitter1.png"/>
+                    <img alt="img"  className="logo" src="\imagenes\twitter1.png"/>
                 }
                 <label className="lab-tw">Twitter</label>
                 </a>
@@ -103,9 +103,9 @@ function Contacto() {
                 <a className="log log-ig" href="#" onMouseOver={hoverVistaIg} onMouseOut={hoverVistaIg} target="_blank">
                 {
                     hoverIg ?
-                    <img  className="logo" src="\imagenes\instagram2.png"/>
+                    <img alt="img"  className="logo" src="\imagenes\instagram2.png"/>
                     :
-                    <img  className="logo" src="\imagenes\instagram1.png"/>
+                    <img alt="img"  className="logo" src="\imagenes\instagram1.png"/>
                 }
                 <label className="lab-tw">Instagram</label>
                 </a>
@@ -114,9 +114,9 @@ function Contacto() {
                 <a className="log log-fb" href="#" onMouseOver={hoverVistaFb} onMouseOut={hoverVistaFb} target="_blank">
                 {
                     hoverFb ?
-                    <img  className="logo" src="\imagenes\facebook2.png"/>
+                    <img alt="img"  className="logo" src="\imagenes\facebook2.png"/>
                     :
-                    <img  className="logo" src="\imagenes\facebook1.png"/>
+                    <img alt="img"  className="logo" src="\imagenes\facebook1.png"/>
                 }
                 <label className="lab-tw">Facebook</label>
                 </a>
@@ -125,9 +125,9 @@ function Contacto() {
                 <a className="log log-wp" href="#" onMouseOver={hoverVistaWp} onMouseOut={hoverVistaWp} target="_blank">
                 {
                     hoverWp ?
-                    <img  className="logo" src="\imagenes\wpp2.png"/>
+                    <img alt="img"  className="logo" src="\imagenes\wpp2.png"/>
                     :
-                    <img  className="logo" src="\imagenes\wpp1.png"/>
+                    <img alt="img"  className="logo" src="\imagenes\wpp1.png"/>
                 }
                 <label className="lab-tw">WhatsApp</label>
                 </a>

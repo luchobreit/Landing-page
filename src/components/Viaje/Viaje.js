@@ -26,7 +26,7 @@ function Viaje() {
                 data-aos-duration="500"
                 className="p4">Ademas si sos socio contas con un monton de descuentos y de sorteos para viajes gratis a culquiera de nuestros destinos
             </p>
-            <Link to="signup" className="socio-link">Hace click aqui para ir asociarte</Link>
+            <Link to="signin" className="socio-link">Hace click aqui para ir asociarte</Link>
             </div>
         </div>
         

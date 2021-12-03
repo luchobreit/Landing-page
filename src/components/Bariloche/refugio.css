@@ -1,0 +1,24 @@
+.refugio-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.refugio{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.TRE{
+    display: flex;
+    justify-content: space-around;
+}
+
+.refugio1-img{
+    object-fit: contain;
+    width: 100%;
+}
+.refugio2{
+    margin-top: 3%;
+}

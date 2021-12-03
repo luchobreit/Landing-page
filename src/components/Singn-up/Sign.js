@@ -5,14 +5,13 @@ import { Card, Button } from "react-bootstrap"
 import { auth, google_provider, facebook_provider} from "../Service/GetFirebase"
 import { useForm } from "react-hook-form"
 import { useUserContext } from "../Context/UserContext"
-import { Link } from "react-scroll"
 import Beneficio from "../Beneficio/Beneficio"
 
 
 
  
 function Sign() {
-    const { register, handleSubmit, reset, formState: { errors } } = useForm();
+    const { register, handleSubmit, reset } = useForm();
     const [registro, setRegistro] = useState(false);
     const [ver, setVer]=useState(false);
     const [emailRegister, seteEmailRegister] = useState(false);
@@ -21,10 +20,6 @@ function Sign() {
         seteEmailRegister(!emailRegister)
     }
 
-    const signOut = ()=>{
-        auth.signOut()
-        .then(()=>{alert("gg wp")})
-    }
 
     const signInProvider=(provider)=>{
         auth.signInWithPopup(provider)
@@ -81,12 +76,10 @@ function Sign() {
     return (
         
         <div className="sign-container">
-                { user === undefined ?
-                <h1 className="accede">Accede para enterarte de todos los beneficios</h1>
-                :
-                <Link className="accede logged" smooth={true} duration={500} to="beneficio">
-                <h1 className="accede logged">Haz click para enterarte de todos los beneficios</h1>
-                </Link>
+                {user === undefined ? 
+                    <h1 className="accede">Accede para enterarte de todos los beneficios</h1>
+                    :
+                    <></>
                 }
             {registro && user ===undefined ? 
                 <>
@@ -155,8 +148,3 @@ function Sign() {
 
 
 export default Sign
-const initialStateEmail={
-    email:"",
-    email2:""
-};
-const initialStatePass="";

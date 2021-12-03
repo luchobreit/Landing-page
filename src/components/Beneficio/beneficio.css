@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Mono:ital,wght@1,300&display=swap');
+
+.beneficios-container{
+    display: flex;
+    flex-flow: column;
+    height: 200%;
+    width: auto;
+}
+.titulo-b{
+    color: white;
+    width: fit-content;
+    font-family: 'PT Sans', sans-serif;
+    cursor: pointer;
+    align-self: center;
+    margin-top: 15%;
+}
+
+.beneficio-container{
+    margin-top: 60vh;
+    width: 98.78vw;
+    height: 100%;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/landing-35f49.appspot.com/o/noche.jpg?alt=media&token=24a37dfd-2eb9-4e06-8d1a-a335a4ccc8a3");
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+}
+
+.beneficio{
+    border: 6px solid rgb(52, 0, 73);
+    color: white;
+    width: 40%;
+    height: 150%;
+    margin: 3% 2%;
+    font-size: x-large;
+    padding: 2%;
+    background-image: url("https://static.videezy.com/system/resources/thumbnails/000/042/456/original/Sky-night-rotation-space-background.jpg");
+    font-family: 'Open Sans', sans-serif;
+}
+
+.beneficio1{
+    align-self: flex-end;
+    
+}
+
+.beneficio3{
+    align-self: flex-end;
+}
+
+.beneficio5{
+    align-self: flex-end;
+}

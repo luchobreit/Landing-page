@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 import { BiPaperPlane } from 'react-icons/bi';
 import { RiContactsBookLine } from 'react-icons/ri';
 import {AiOutlineLogin} from "react-icons/ai"
-import {BsPatchQuestion} from "react-icons/bs"
+
 
 
 
@@ -38,21 +38,16 @@ function NavBar() {
 
               <Nav.Link eventKey={2}><RiContactsBookLine/><Link className ="linka" to="contacto">     Contacto</Link></Nav.Link>
               <NavDropdown title="Destinos" id="collasible-nav-dropdown">
-                <NavDropdown.Item > Bariloche</NavDropdown.Item>
-                <NavDropdown.Item >El Bolson</NavDropdown.Item>
-                <NavDropdown.Item >Las Leñas</NavDropdown.Item>
+               <NavDropdown.Item> <Link className="nav-link-d" to="/bariloche">Bariloche</Link></NavDropdown.Item>
+                <NavDropdown.Item ><Link className="nav-link-d" to="/elbolson">El Bolson</Link></NavDropdown.Item>
+                <NavDropdown.Item ><Link className="nav-link-d" to="/laslenas">Las Leñas</Link></NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item >Otro</NavDropdown.Item>
               </NavDropdown>
 
             </Nav>
             <Nav>
 
               <Nav.Link eventKey={2}><Link className="signup" to="signin"><AiOutlineLogin/>   Sing-Up</Link></Nav.Link>
-
-              <Nav.Link eventKey={2} >
-                <BsPatchQuestion/>    Quienes Somos?
-              </Nav.Link>
 
             </Nav>
           </Navbar.Collapse>

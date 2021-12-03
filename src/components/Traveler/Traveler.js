@@ -3,8 +3,6 @@ import {VscDebugStart} from "react-icons/vsc"
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 import { Link } from "react-scroll";
-import { useUserContext } from "../Context/UserContext";
-
 function Traveler() {
     AOS.init()
     return (
