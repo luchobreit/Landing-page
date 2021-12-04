@@ -18,9 +18,6 @@ function Bariloche({titulo1,titulo2,imagenarg,imgprov1, imgprov2,intro,imgact1,i
     const cambioVistaBrc = ()=>{
         setVistaBrc(!vistaBrc)
     }
-    const scrollToTop=()=>{
-        scroll.scrollToTop()
-    }
 
     Aos.init()
     return (

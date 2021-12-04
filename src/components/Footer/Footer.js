@@ -25,7 +25,7 @@ function Footer() {
                 <h2><AiOutlineUser className="planet"/>USERS</h2>
                 <Link className="link" to ="signin"><li className="li-Usuarios"><AiOutlineCheckSquare/> Beneficios</li></Link>
                 <Link className="link" to ="signin"><li className="li-Usuarios"><AiOutlineLogin/> Asociate</li></Link>
-                <Link className="link" to ="/"><li className="li-Usuarios"><AiOutlineQuestionCircle/> Preguntas</li></Link>
+                <Link className="link" to ="contacto"><li className="li-Usuarios"><AiOutlineQuestionCircle/> Preguntas</li></Link>
             </ul>
         </div>
     )

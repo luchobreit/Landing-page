@@ -15,7 +15,7 @@ function Cards() {
                 </Link>
                 
                 <div className="grid grid-item-2"></div>
-                <Link className="grid grid-item-3">
+                <Link to="/laslenas"className="grid grid-item-3">
                 <img alt="las leñas" className="item3-img" src="https://www.serargentino.com/public/images/2019/11/Las-Le%C3%B1as-mendoza-verano-773x458.jpeg"></img>
                 <label className="item3-txt">LAS LEÑAS</label>
                 </Link>

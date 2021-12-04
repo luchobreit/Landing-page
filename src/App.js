@@ -39,7 +39,7 @@ function App() {
               titulo1="Rio Negro" 
               titulo2="El Bolson"
               imagenarg="/imagenes/Brc/mapaarg2.png" 
-              imgprov1="/imagenes/Brc/mapabrc1.png"
+              imgprov1="/imagenes/Brc/mapabrc0.png"
               imgprov2="/imagenes/Brc/mapabrc2.png"
               intro="El Bolsón lleva la magia en el aire y esa magia es contagiosa: late en quienes aquí viven y también en los que están de paso."          
               imgact1="/imagenes/ElBolson/refugioB.jpg"
