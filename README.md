@@ -1,7 +1,7 @@
 # Mountain.ex
 ## _Landing page_
- _Prueba en vivo_
-[![prueba](https://cutt.ly/yRgl1Y0)](https://hungry-boyd-3060a4.netlify.app/)
+### _Prueba en vivo_
+[![prueba](https://cutt.ly/yRgl1Y0)](https://mountainex.netlify.app)
 
 
 
