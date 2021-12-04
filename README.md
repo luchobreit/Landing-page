@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Mountain.ex
+## _Landing page_
+ _Prueba en vivo_
+[![prueba](https://cutt.ly/yRgl1Y0)](https://hungry-boyd-3060a4.netlify.app/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+El proyecto de una Landing-Page nacio como una prueba a mis capacidades de desarrollar una web con una base solida en front-end y basicos conocimientos de backend(firebase)
 
-### `npm start`
+- Cuenta con formulario de contacto
+- Trabaja con un modelo sencillo de base de datos
+- Esta hecho 100% con react.js
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+La idea general fue construir un sitio web con una interfaz sencilla y que a la vez sea captiva para los visitantes
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tech
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Las distintas librerias usadas en el sitio web son:
 
-### `npm run eject`
+- [Firebase](https://console.firebase.google.com/) (_8.9.1_)- Base de datos
+- [Bootstrap/React-Boostrap](https://github.com/twbs/bootstrap) (_5.0.1/2.0.0-beta.4_)- Front-end framework
+- [React-icons](https://react-icons.github.io/react-icons/) (_4.2.0_) - Librería de iconos 
+- [React-router-dom](https://www.npmjs.com/package/react-router-dom) (_5.2.1_) - Enlaces DOM para React Router.
+- [React-Scroll] (https://www.npmjs.com/package/react-scroll) (_1.8.4_) - Mejora la experiencia de la pagina permitinedo el scroll entre componetntes
+- [React-hook-form] (https://react-hook-form.com/)  (_7.19.3_) - Libreria para verifcar formularios
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Tech
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Todas las paginas correspondientes a cada provincia tiene imagenes pasadas por props, esto quiere decir que se puede personalizar muy facil!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ 😄GRACIAS POR VISITAR MI SITIO 😃
